@@ -1,0 +1,9 @@
+.sidebar {
+  position: fixed; /* if position is fixed, then the bg color should be mentioned else it will overlap */
+  /* its no longer on the page if the position is fixed */
+  background-color: white;
+  left: 0; /* left end */
+  bottom: 0; /* till the bottom end */
+  top: 55px; /* start from the bottom of the header*/
+  width: 72px; /* use width since we dont need to resize (otherwise use right if resize needed) */
+}
